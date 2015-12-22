@@ -1,28 +1,40 @@
-name: DlowTheProducer
 favicon: null
-layout_spectrum: 0.9117993400432169
-typography_spectrum: 0.353732637129724
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: DlowTheProducer
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.002854392165318131
+  brandStrength: 0.9487831983715296
+  rhythmicContrast: 0.1643173340708017
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.9487831983715296
   lightness: 0.0869517910759896
-  saturation: 0.0028543921653181314
-  rhythmicContrast: 0.16431733407080173
-purpose: []
+typography_spectrum: 0.3291517
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9117993400432169
+analytics:
+  twitter: null
+  google: null
+  facebook: null
